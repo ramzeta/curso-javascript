@@ -3,7 +3,7 @@
 Introducción a JavaScript:
 
 - ¿Qué es JavaScript y por qué es importante?
-Historia y evolución de JavaScript.
+<ol> Historia y evolución de JavaScript. </ol>
 Integración de JavaScript en páginas web.
 Sintaxis básica de JavaScript:
 
