@@ -33,10 +33,10 @@ y = y + 2;
 JavaScript tiene varios tipos de datos integrados, entre ellos:
 
 - Números: `let edad = 25;`
-- Cadenas de texto: `let nombre = 'Juan';`
+- Cadenas de texto: `let nombre = 'Ramiro';`
 - Booleanos: `let esMayor = true;`
 - Arreglos: `let numeros = [1, 2, 3, 4, 5];`
-- Objetos: `let persona = { nombre: 'Juan', edad: 25 };`
+- Objetos: `let persona = { nombre: 'Ramiro', edad: 25 };`
 
 ### Estructuras de control
 
@@ -82,11 +82,19 @@ function saludar(nombre) {
   console.log('¡Hola, ' + nombre + '!');
 }
 
-saludar('Juan');
+saludar('Ramiro');
 ```
 
-En este ejemplo, se define una función llamada `saludar` que recibe un parámetro `nombre` y muestra un saludo en la consola.
+### Manejo de eventos
 
-Esto es solo una introducción a la sintaxis básica de JavaScript. El lenguaje ofrece muchas más características y conceptos avanzados. ¡Explora y diviértete programando en JavaScript!
+El manejo de eventos en JavaScript permite responder a las acciones del usuario, como hacer clic en un elemento o mover el mouse. Aquí hay un ejemplo de manejo de eventos utilizando el evento de clic:
 
-Si tienes más preguntas, no dudes en hacerlas.
+```javascript
+// Selección del elemento
+let boton = document.getElementById('miBoton');
+
+// Agregar un evento de clic
+boton.addEventListener('click', function() {
+  console.log('¡Se hizo clic en el botón!');
+});
+```
