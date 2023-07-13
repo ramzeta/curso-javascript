@@ -33,14 +33,14 @@ Introducción a JavaScript:
 <ol>Manejo de respuestas y formatos (JSON).</ol>
 
 - Manipulación de formularios:
-Validación de formularios con JavaScript.
-Envío y procesamiento de datos de formularios.
-Introducción a frameworks y librerías:
+<ol>Validación de formularios con JavaScript.</ol>
+<ol>Envío y procesamiento de datos de formularios.</ol>
 
-- Breve introducción a frameworks populares como React, Angular o Vue.js.
-Uso de librerías como jQuery.
-Mejores prácticas y consejos:
+- Introducción a frameworks y librerías:
+<ol>Breve introducción a frameworks populares como React, Angular o Vue.js.</ol>
+<ol>Uso de librerías como jQuery.</ol>
 
-- Buenas prácticas de codificación.
-Depuración y manejo de errores.
-Recursos y referencias para aprender más.
+- Mejores prácticas y consejos:
+<ol>Buenas prácticas de codificación.</ol>
+<ol>Depuración y manejo de errores.</ol>
+<ol>Recursos y referencias para aprender más.</ol>
