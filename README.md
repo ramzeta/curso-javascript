@@ -4,36 +4,36 @@ Introducción a JavaScript:
 
 - ¿Qué es JavaScript y por qué es importante?
 <ol> Historia y evolución de JavaScript. </ol>
-Integración de JavaScript en páginas web.
-Sintaxis básica de JavaScript:
+<ol> Integración de JavaScript en páginas web.</ol>
 
-- Variables y tipos de datos.
-Operadores y expresiones.
-Estructuras de control (if, else, bucles).
-Funciones y manejo de eventos.
-Objetos y manipulación del DOM:
+- Sintaxis básica de JavaScript:
+<ol> Variables y tipos de datos.</ol>
+<ol> Operadores y expresiones.</ol>
+<ol> Estructuras de control (if, else, bucles). </ol>
+<ol> Funciones y manejo de eventos. </ol>
 
-- Introducción a los objetos en JavaScript.
-Manipulación del DOM (Document Object Model).
-Selección y modificación de elementos HTML.
-Manipulación de arrays y objetos:
+- Objetos y manipulación del DOM:
+<ol> Introducción a los objetos en JavaScript.</ol>
+<ol> Manipulación del DOM (Document Object Model).</ol>
+<ol> Selección y modificación de elementos HTML.</ol>
 
-- Trabajar con arrays y métodos útiles.
-Creación y manipulación de objetos.
-Acceso y modificación de propiedades.
-Programación asíncrona:
+- Manipulación de arrays y objetos:
+<ol> Trabajar con arrays y métodos útiles. </ol>
+<ol> Creación y manipulación de objetos. </ol>
+<ol> Acceso y modificación de propiedades. </ol>
 
-- Introducción a la asincronía en JavaScript.
-Callbacks y funciones asíncronas.
-Promesas y async/await.
-Introducción a AJAX y API:
+- Programación asíncrona:
+<ol> Introducción a la asincronía en JavaScript. </ol>
+<ol> Callbacks y funciones asíncronas. </ol>
+<ol> Promesas y async/await. </ol>
 
-- Realización de peticiones AJAX.
-Consumo de datos de API.
-Manejo de respuestas y formatos (JSON).
-Manipulación de formularios:
+- Introducción a AJAX y API:
+<ol>Realización de peticiones AJAX.</ol>
+<ol>Consumo de datos de API.</ol>
+<ol>Manejo de respuestas y formatos (JSON).</ol>
 
-- Validación de formularios con JavaScript.
+- Manipulación de formularios:
+Validación de formularios con JavaScript.
 Envío y procesamiento de datos de formularios.
 Introducción a frameworks y librerías:
 
