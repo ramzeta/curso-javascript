@@ -22,11 +22,12 @@ function bubbleSort(arr) {
 // Ejemplo:
 var myArray = [3, 2, 1, 5, 4];
 console.log(bubbleSort(myArray)); // [1, 2, 3, 4, 5]
-
+``````
 
 
 Aquí está el código en JavaScript que implementa ordenamiento por inserción:
 
+``````
 function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let current = arr[i];
