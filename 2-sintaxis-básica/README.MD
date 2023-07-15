@@ -32,11 +32,11 @@ y = y + 2;
 
 JavaScript tiene varios tipos de datos integrados, entre ellos:
 
-- Números: `let edad = 25;`
+- Números: `let edad = 34;`
 - Cadenas de texto: `let nombre = 'Ramiro';`
 - Booleanos: `let esMayor = true;`
 - Arreglos: `let numeros = [1, 2, 3, 4, 5];`
-- Objetos: `let persona = { nombre: 'Ramiro', edad: 25 };`
+- Objetos: `let persona = { nombre: 'Ramiro', edad: 34 };`
 
 ### Estructuras de control
 
