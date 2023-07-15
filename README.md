@@ -1,46 +1,39 @@
-# curso-javascript
+>
+># Curso-JavaScript
 
 Introducción a JavaScript:
 
-- ¿Qué es JavaScript y por qué es importante?
-<ol> Historia y evolución de JavaScript. </ol>
-<ol> Integración de JavaScript en páginas web.</ol>
-
-- Sintaxis básica de JavaScript:
-<ol> Variables y tipos de datos.</ol>
-<ol> Operadores y expresiones.</ol>
-<ol> Estructuras de control (if, else, bucles). </ol>
-<ol> Funciones y manejo de eventos. </ol>
-
-- Objetos y manipulación del DOM:
-<ol> Introducción a los objetos en JavaScript.</ol>
-<ol> Manipulación del DOM (Document Object Model).</ol>
-<ol> Selección y modificación de elementos HTML.</ol>
-
-- Manipulación de arrays y objetos:
-<ol> Trabajar con arrays y métodos útiles. </ol>
-<ol> Creación y manipulación de objetos. </ol>
-<ol> Acceso y modificación de propiedades. </ol>
-
-- Programación asíncrona:
-<ol> Introducción a la asincronía en JavaScript. </ol>
-<ol> Callbacks y funciones asíncronas. </ol>
-<ol> Promesas y async/await. </ol>
-
-- Introducción a AJAX y API:
-<ol>Realización de peticiones AJAX.</ol>
-<ol>Consumo de datos de API.</ol>
-<ol>Manejo de respuestas y formatos (JSON).</ol>
-
-- Manipulación de formularios:
-<ol>Validación de formularios con JavaScript.</ol>
-<ol>Envío y procesamiento de datos de formularios.</ol>
-
-- Introducción a frameworks y librerías:
-<ol>Breve introducción a frameworks populares como React, Angular o Vue.js.</ol>
-<ol>Uso de librerías como jQuery.</ol>
-
-- Mejores prácticas y consejos:
-<ol>Buenas prácticas de codificación.</ol>
-<ol>Depuración y manejo de errores.</ol>
-<ol>Recursos y referencias para aprender más.</ol>
+1. ¿Qué es JavaScript y por qué es importante?
+    - Historia y evolución de JavaScript. 
+    - Integración de JavaScript en páginas web.
+1. Sintaxis básica de JavaScript:
+    - Variables y tipos de datos.
+    - Operadores y expresiones.
+    - Estructuras de control (if, else, bucles). 
+    - Funciones y manejo de eventos. 
+1. Objetos y manipulación del DOM:
+    - Introducción a los objetos en JavaScript.
+    - Manipulación del DOM (Document Object Model).
+    - Selección y modificación de elementos HTML.
+1. Manipulación de arrays y objetos:
+    - Trabajar con arrays y métodos útiles. 
+    - Creación y manipulación de objetos. 
+    - Acceso y modificación de propiedades. 
+1. Programación asíncrona:
+    - Introducción a la asincronía en JavaScript. 
+    - Callbacks y funciones asíncronas. 
+    - Promesas y async/await. 
+1. Introducción a AJAX y API:
+    - Realización de peticiones AJAX.
+    - Consumo de datos de API.
+    - Manejo de respuestas y formatos (JSON).
+1. Manipulación de formularios:
+    - Validación de formularios con JavaScript.
+    - Envío y procesamiento de datos de formularios.
+1. Introducción a frameworks y librerías:
+    - Breve introducción a frameworks populares como React, Angular o Vue.js.
+    - Uso de librerías como jQuery.
+1. Mejores prácticas y consejos:
+    - Buenas prácticas de codificación.
+    - Depuración y manejo de errores.
+    - Recursos y referencias para aprender más.
