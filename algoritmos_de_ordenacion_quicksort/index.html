@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .bar {
+      display: inline-block;
+      width: 20px;
+      margin-right: 2px;
+      background-color: #333;
+      height: 100px;
+      transition: height 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="bars">
+    <div class="bar" style="height: 80px;"></div>
+    <div class="bar" style="height: 50px;"></div>
+    <div class="bar" style="height: 30px;"></div>
+    <div class="bar" style="height: 60px;"></div>
+    <div class="bar" style="height: 70px;"></div>
+    <div class="bar" style="height: 20px;"></div>
+    <div class="bar" style="height: 40px;"></div>
+  </div>
+
+  <script>
+    function quicksort(arr, start, end) {
+      if (start >= end) {
+        return;
+      }
+
+      var index = partition(arr, start, end);
+      setTimeout(function() {
+        quicksort(arr, start, index - 1);
+      }, 1000); // Retraso de 1 segundo
+      setTimeout(function() {
+        quicksort(arr, index + 1, end);
+      }, 1000); // Retraso de 1 segundo
+    }
+
+    function partition(arr, start, end) {
+      var pivot = arr[end];
+      var i = start - 1;
+
+      for (var j = start; j < end; j++) {
+        if (arr[j] < pivot) {
+          i++;
+          swap(arr, i, j);
+        }
+      }
+
+      swap(arr, i + 1, end);
+      return i + 1;
+    }
+
+    function swap(arr, i, j) {
+      var temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+
+      // Actualizar visualización de barras
+      setTimeout(function() {
+        var bars = document.getElementById("bars").children;
+        var tempHeight = bars[i].style.height;
+        bars[i].style.height = bars[j].style.height;
+        bars[j].style.height = tempHeight;
+      }, 100); // Retraso de 0.1 segundos
+    }
+
+    var arr = [80, 50, 30, 60, 70, 20, 40];
+    quicksort(arr, 0, arr.length - 1);
+  </script>
+</body>
+</html>
