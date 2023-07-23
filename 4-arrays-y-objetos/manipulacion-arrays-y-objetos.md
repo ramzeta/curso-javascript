@@ -22,7 +22,6 @@ let primerElemento = miArray[0];
 
 // Acceder al último elemento
 let ultimoElemento = miArray[miArray.length - 1];
-
 ```
 
 <h3>Modificar elementos de un Array</h3>
@@ -30,7 +29,6 @@ let ultimoElemento = miArray[miArray.length - 1];
 ```
 let miArray = [1, 2, 3, 4, 5];
 miArray[2] = 10; // Modifica el tercer elemento del array y le asigna el valor 10
-
 ```
 
 <h3> Eliminar elementos de un array </h3>
@@ -42,7 +40,6 @@ let miArray = [1, 2, 3, 4, 5];
 miArray.pop(); // Elimina el último elemento del array (5)
 miArray.shift(); // Elimina el primer elemento del array (1)
 miArray.splice(1, 2); // Elimina 2 elementos a partir del índice 1 del array ([2, 4])
-
 ```
 
 
@@ -61,7 +58,6 @@ let miObjeto = {
   edad: 25,
   profesion: "programador"
 };
-
 ```
 
 <h3>Acceder a las propiedades de un Objeto</h3>
@@ -72,7 +68,6 @@ let nombre = miObjeto.nombre;
 
 // Acceder a una propiedad con notación de corchetes
 let edad = miObjeto["edad"];
-
 ```
 
 <h3>Modificar propiedades de un Objeto</h3>
